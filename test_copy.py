@@ -1,5 +1,5 @@
 import streamlit as st
-import serial
+
 import time
 import numpy as np
 import pandas as pd
@@ -17,7 +17,7 @@ READ_DURATION = 30  # seconds
 
 
 # === CONFIGURATION ===
-COM_PORT = '/dev/cu.usbserial-0001'  # Change as needed
+
 BAUD_RATE = 115200
 READ_DURATION = 30  # seconds
 TOUCH_THRESHOLD = 100000  # IR threshold to detect finger touch
